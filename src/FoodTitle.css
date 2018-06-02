@@ -1,0 +1,7 @@
+.FoodTitle {
+  font-size: 6em;
+  max-width: 100%;
+  line-height: 144px;
+  overflow: visible;
+  white-space: nowrap;
+}

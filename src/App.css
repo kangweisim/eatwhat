@@ -1,0 +1,31 @@
+.App {
+  margin-top: 4vh;
+  text-align: center;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+       -moz-selection: none;
+       -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.App.ui.text.container {
+    font-family: 'Hi Melody', cursive;
+}
+
+.App-title {
+  font-size: 6em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@media screen and (max-height: 700px) {
+  .App {
+    margin-top: 0vh;
+  }
+}
